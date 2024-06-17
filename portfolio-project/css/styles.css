@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--primary-color);
+    height: 17vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: antiquewhite;
+  opacity: 70%;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    padding: 10px;
+    border: var(--secondary-color) 3px solid;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.navbar .name {
+    margin: 10px 20px;
+}
+
+.education {
+    display: flex;
+    margin-left: 60px;
+  }
+
+  .college {
+    border: var(--primary-color) 3px solid;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 20px 10px;
+  }
+
+  .high-school {
+    border: var(--primary-color) 3px solid;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 20px 10px;
+  }
+
+  .certificate {
+    border: var(--primary-color) 3px solid;
+    padding: 10px;
+    border-radius: 20px 10px;
+  }
+
+  .specific {
+    border: var(--primary-color) 3px solid;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 20px 10px;
+  }
+  
+  .projects{
+    display: flex;
+    justify-content: center;
+  }
+
+  .project-1 {
+    border: var(--primary-color) 3px solid;
+    margin-right: 60px;
+    padding: 20px;
+    border-radius: 20px 10px;
+    margin-left: 60px;
+  }
+
+  footer {
+    background: var(--primary-color);
+    text-align: center;
+    height: 10vh;
+    margin-top: 20px;
+  }
+
+  .footer-text h3 {
+    padding-top: 20px;
+  }

@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #102c57;
+    --secondary-color: #00adb5;
+    --light-color: #eeeeee;
+    --dark-color: #393e46;
+    --text-color: #f5f0f0;
+  }
+
+  main {
+    max-width: 65%;
+    margin: auto;
+  }
+
+  .box-1 {
+    border: var(--primary-color) 3px solid;
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 15px #fff;
+  }
+
+  hr {
+    color: var(--primary-color);
+    border: 3px dotted;
+    margin: 10px 0 10px 0;
+  }
+  
+  .box-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px;
+  }
